@@ -1,0 +1,12 @@
+{
+  "name": "ExpressPong",
+  "version": "1.0.0",
+  "description": "ExpressPong",
+  "main": "main.js",
+  "author": "Jose Neto",
+  "license": "ISC",
+  "dependencies": {
+    "etcd-registry": "^2.1.1",
+    "express": "^4.16.4"
+  }
+}
