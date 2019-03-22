@@ -4,12 +4,18 @@ Sample Project to show How to use Node Express with Etcd and Docker
 Creates a simple Etcd cluster 
 Uses a Node Express to test register and usage:
 express main.js registers on etcd and publishs to endpoints
+
 ping
+
 sample command check
+
 list
+
 lists all services registered in etcd
 
+
 Enviroment is Linux / Docker 
+
 
 Server: Docker Engine - Community
  Engine:
@@ -23,8 +29,12 @@ Server: Docker Engine - Community
 
 
 // Command to build //////////////////////
+
 docker-compose up --force-recreate --build
 
+
 // Command to check express  //////////////
+
 curl  http://127.0.0.1:8000/ping
+
 curl  http://127.0.0.1:8000/list
